@@ -1,7 +1,12 @@
 import discord
 from discord.ext import commands
+import os
+from dotenv import load_dotenv
+
 from handlers import roll, is_valid_expression
-from secret import TOKEN
+
+load_dotenv() 
+TOKEN = os.getenv("TOKEN")
 
 def run_bot():
     bot = commands.Bot(command_prefix='*', intents=discord.Intents.all())
