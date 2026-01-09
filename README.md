@@ -1,0 +1,2 @@
+# runic
+discord dicebot
