@@ -1,2 +1,2 @@
 # runic
-discord dicebot
+discord dicebot inspired by rollem
